@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time
 
 st.title('Streamlit 超入門')
@@ -44,6 +41,3 @@ expander = st.expander('問い合わせ2')
 expander.write('問い合わせ2回答')
 expander = st.expander('問い合わせ3')
 expander.write('問い合わせ3回答')
-# if st.checkbox('Show Image'):
-#   img = Image.open('sample01.jpg')
-#   st.image(img,caption='kanaji',use_column_width=True)
